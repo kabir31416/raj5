@@ -11,6 +11,9 @@ import DonationSection from "@/components/DonationSection";
 import VolunteerSection from "@/components/VolunteerSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import PhotoFrameSection from "@/components/PhotoFrameSection";
+import CampaignHighlightsSection from "@/components/CampaignHighlightsSection";
+import PublicVoicesSection from "@/components/PublicVoicesSection";
 
 const Index = () => {
   return (
@@ -22,6 +25,9 @@ const Index = () => {
         <VisionSection />
         <ManifestoSection />
         <WhyJamaatSection />
+        <CampaignHighlightsSection />
+        <PublicVoicesSection />
+        <PhotoFrameSection />
         <CommunitySection />
         <EventsSection />
         <GallerySection />
